@@ -13,21 +13,9 @@
 ## 1.2 Escopo
 
 <p aligng="justify"> &emsp;&emsp;O gerenciador de frotas é um projeto realizado para a disciplina de Engenharia de Software do curso Sistemas de Informação da Faculdade do Instituto de Computação (IC) da Universidade Federal de Mato Grosso (UFMT).</p>
-<p aligng="justify"> &emsp;&emsp;O projeto, a ser realizado pela equipe composta por alunos da disciplina de Engenharia de Software, e com orientação do professor Eder possui como objetivo auxiliar os alunos da universidade em dúvidas que eles tenham em relação ao meio acadêmico. Isso envolve como obter documentações, cardápio do restaurante universitário, alertas da comunidade acadêmica e de professores. A partir da interação com o <i>ChatBot</i>, o usuário poderá requisitar destes serviços, ajudas, notícias e informes relacionados à faculdade e à universidade, como o passo-a-passo necessário para a emissão de determinado documento ou informações sobre a alimentação provida pelo Restaurante Universitário.
+<p aligng="justify"> &emsp;&emsp;O projeto, a ser realizado pela equipe composta por alunos da disciplina de Engenharia de Software, e com orientação do professor Eder possui como objetivo auxiliar os alunos da universidade a fazer um documento de  visão para um cliente que possui uma transportadora
 
-## 1.3 Definições, Acrônimos e Abreviações
-
-* UnB - Universidade de Brasília
-* MDS - Métodos de Desenvolvimento de <i>Software</i>
-* EPS - Engenharia de Produto de <i>Software</i>
-* Lino - O nome do <i>ChatBot</i>
-* <i>ChatBot</i> - Programa de computador capaz de conduzir uma conversação através de via auditiva ou texto
-* FGA - Faculdade do Gama
-* RU - Restaurante Universitário
-
-## 1.4 Referências
-
->MINISTÉRIO DA SAÚDE - DEPARTAMENTO DE INFORMÁTICA. Coordenação-Geral de Análise e Manutenção. Guia de Preenchimento: Documento de Visão de Sistema. [S.l.: s.n.], 2018. 1 p;
+## 1.3 Referências
 
 >DOCUMENTO de Visão. 2017. Disponível em: <a href="https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas" target="_blank">https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas</a>. Acesso em: 2 de set. 2018
 
@@ -36,11 +24,11 @@
 # 2. Posicionamento
 ## 2.1 Oportunidade de Negócio
 
-<p align="justify"> &emsp;&emsp;Atualmente, as informações são repassadas para os universitários através dos murais, sites e redes sociais da Universidade de Brasília. As vezes, para obter-se tais informações necessita-se acessar o portal Matrícula Web e, em alguns casos, até comparecer na secretaria para obtenção de informações de informações desejadas.</p>
+<p align="justify"> &emsp;&emsp;Atualmente, as informações de operações de transporte, tanto dos veículos quanto dos motoristas, carecem de um gerenciamento organizacional que cometa poucos erros, por diversas vezes informações passam despercebidas e não é facil ter uma clara visão da situação dos motoristas e veículos.</p>
 
-<p align="justify"> &emsp;&emsp;Isso configura um cenário complicado e nada acessível para obtenção das determinadas informações. Muitas vezes os alunos não possuem a disponibilidade necessária de comparecer ao local onde se encontram as informações, perdendo-as desta maneira. A forma do aluno se comunicar com a faculdade e os professores ainda não é realizada de maneira acessível e dinâmica. Dessa forma, o <i>ChatBot</i> se propôe a solucionar tais desafios.</p>
+<p align="justify"> &emsp;&emsp;Isso configura um cenário complicado e nada acessível para obtenção de informações necessárias. Muitas vezes os trabalhadores não possuem a disponibilidade necessária de relatar informações sobre as operações de transporte, perdendo-as desta maneira. A forma do trabalhador se comunicar com a empresa e os Empregadores gerenciarem e terem uma visão clara das coisas ainda é um problema. Dessa forma, o <i>Sistema de Gerenciamento de Frota</i> se propôe a solucionar tais desafios.</p>
 
-<p align="justify"> &emsp;&emsp;O <i>ChatBot</i> oferecerá o serviço automatizado de alertar aos alunos a cerca de informações importantes sobre a universidade e o ambiente acadêmico, além de fornecer instruções necessárias para a visualização e retirada de documentos. Dessa forma, aumenta-se a velocidade e a facilidade de acesso à documentação e informação, atualmente fornecida pela secretaria.</p>
+<p align="justify"> &emsp;&emsp;O <i>Sistema de Gerenciamento de Frota</i> oferecerá o serviço automatizado de visualizar situação dos veículos, motoristas disponiveis, alocar os mesmos para alguma operação, e ainda fará com que seja possivel os trabalhadores relatarem sua situação,visando uma organização mais eficiente dos processos da empresa.</p>
 
 ## 2.2 Descrição do Problema
 <table class="tg">
