@@ -1,6 +1,6 @@
 |Data| Versão |Modificação|Autor|
 |:---:|:---:|:---:|:--:|
-| 25/08/2025 |   1.0  | Criação do Documento| João Pedro de Oliveira, Maria Luiza Batista, Maria julia Griggi, Ana Clara Salgado, Guilherme Lessa, Lucas Ramos Fagundes, Felipe Costa e Silva  |
+| 10/02/2025 |   1.0  | Criação do Documento| João Pedro de Oliveira, Maria Luiza Batista, Maria julia Griggi, Ana Clara Salgado, Guilherme Lessa, Lucas Ramos Fagundes, Felipe Costa e Silva  |
 
 # 1. Introdução
 
@@ -17,10 +17,9 @@
 
 ## 1.3 Referências
 
->DOCUMENTO de Visão. 2017. Disponível em: <a href="https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas" target="_blank">https://github.com/fga-eps-mds/2017.1-Trezentos/wiki/Documento-de-Vis%C3%A3o#3-partes-envolvidas</a>. Acesso em: 2 de set. 2018
+>RUP - Vision Document (Small Projects) - Overleaf, Editor LaTeX Online. Disponível em: <https://pt.overleaf.com/latex/templates/rup-vision-document-small-projects/czqtfsqnvcmb>. Acesso em: 10 fev. 2025.
 
->2018.1-DR-DOWN: Documento de Visão. 2018. Disponível em: <a href="https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md"target="_blank">https://github.com/fga-eps-mds/2018.1-Dr-Down/blob/develop/docs/mds/VISION_DOCUMENT.md</a>. Acesso em: 2 de set. 2018;
-
+‌
 # 2. Posicionamento
 ## 2.1 Oportunidade de Negócio
 
@@ -77,147 +76,137 @@
 </table>
 
 
-# 3. Descrições dos Envolvidos e dos Usuários
+# 3. Descrições dos Envolvidos e dos Usuários  
 
-Os principais envolvidos neste projeto serão as equipes de desenvolvimento (MDS), gestores (EPS) e monitores, sendo que esses não necessariamente irão ser usuários do aplicativo.
+Os principais envolvidos neste projeto serão as equipes de desenvolvimento e gestão da empresa, além dos motoristas e funcionários administrativos, que serão os principais usuários do sistema.  
 
-O público-alvo do projeto, que irá interagir com o Lino, são alunos da FGA, sejam eles de graduação ou pós-graduação.
+O público-alvo do projeto, que irá interagir diretamente com a plataforma, são os funcionários responsáveis pelo transporte de cargas e os gestores da frota.  
 
-Os principais artefatos que o Lino propõe é a maior agilidade, acessibilidade e facilidade na entrega de informação de assuntos e perguntas frequentes em relação a Universidade de Brasília.
+Os principais benefícios do sistema incluem a otimização da organização de horários, o acompanhamento eficiente da frota de veículos e a melhoria na gestão de manutenção e períodos de descanso dos motoristas.  
 
 ## 3.2 Resumo dos Envolvidos
 
 |Nome|Descrição|Responsabilidades|
 |:----:|:----:|:----:|
-|Equipe de desenvolvimento de *Software*|Estudantes da Disciplina Métodos de Desenvolvimento de *Software*.|Desenvolvimento e Testes do *Software* descrito no documento.|
-|Equipe de Engenharia de Produto de *Software*|Estudantes da Disciplina Engenharia de Produto de *Software*.|Gestão da Equipe de Desenvolvimento, bem como manutenção de ambientes e entrega contínua.|
-|Orientador|Professora na Universidade de Brasília, no campus Faculdade Gama (FGA - UnB), atual professora das disciplinas Métodos de Desenvolvimento de *Software* e Engenharia de Produto de *Software*.|Orientar as equipe de desenvolvimento e gestão em eventuais dúvidas.|
+|Equipe de desenvolvimento de *Software*|Estudantes da Disciplina Engenharia de Software.|Desenvolvimento e Testes do *Software* descrito no documento.|
+|Equipe de Engenharia de Produto de *Software*|Estudantes da Disciplina Engenharia de Software.|Gestão da Equipe de Desenvolvimento, bem como manutenção de ambientes e entrega contínua.|
+|Orientador|Professor na Universidade Federal de Mato Grosso (UFMT), atual professor da disciplina Engenharia de Software.|Orientar as equipe de desenvolvimento e gestão em eventuais dúvidas.|
 
-## 3.3 Resumo dos Usuários
+## 3.3 Resumo dos Usuários  
 
-|Nome|Descrição|Responsabilidades|
-|:---:|:---:|:---:|
-|Alunos|Aqueles que frequentam a FGA e porventura tenham dúvidas acerca de assuntos da universidade|Interagir com o Lino por meio das plataformas <i>Telegram</i> e <i>Facebook Messenger</i>, retirar dúvidas e receber notificações e alertas da comunidade acadêmica.|
+| Nome | Descrição | Responsabilidades |  
+|:---:|:---:|:---:|  
+| Motoristas | Profissionais que operam os veículos da frota. | Utilizar o sistema para acompanhar horários de trabalho, períodos de descanso e registrar ocorrências. |  
+| Gestores de Frota | Administradores responsáveis pelo gerenciamento dos veículos e motoristas. | Usar o sistema para monitoramento da frota, análise de manutenção e controle de viagens. |  
 
-## 3.4 Principais Necessidades dos Usuários e dos Envolvidos
+## 3.4 Principais Necessidades dos Usuários e dos Envolvidos  
 
-Os usuários realizarão a interação com o Lino por meio do <i>Telegram</i> e do <i>Facebook Messenger</i>, serviços de mensagens instantâneas, sempre que tiverem dúvidas ou desejarem maiores esclarecimentos a respeito dos procedimentos da universidade. Também, poderão receber notificações sobre o calendário do semestre e alertas da comunidade acadêmica.
+Os usuários interagirão com o sistema através de uma plataforma web e mobile, permitindo o acompanhamento em tempo real dos horários de trabalho, viagens e manutenções. Os gestores poderão acessar relatórios detalhados para otimizar a operação da frota e garantir a segurança e eficiência dos motoristas.  
 
-## 3.5 Perfis dos Envolvidos
+## 3.5 Perfis dos Envolvidos  
 
-### 3.5.1 Equipe de Desenvolvimento de *Software*
-|Perfil|--|
-|:-:|:-|
-|Representantes|Gabriel Braga Mendes, Gabriel Filipe Manso Araujo, Guilherme Marques Rosa, Matheus Salles Blanco, Pedro Rodrigues Pereira.|
-|Descrição|Desenvolvimento do *Software*.|
-|Tipo|Estudantes da Universidade de Brasília, da disciplina de Métodos de Desenvolvimento de *Software*.|
-|Responsabilidades|Desenvolver, testar e implantar o *software*.|
-|Critérios de Sucesso|Finalizar o desenvolvimento e realizar a entrega do bot no tempo estipulado.|
-|Envolvimento|Alto.|
-|Problemas/Comentários|Desenvolver o software no tempo estabelecido pela equipe de EPS. Inexperiência da equipe com a linguagem de programação utilizada para desenvolver o software.|
+### 3.5.1 Equipe de Desenvolvimento  
 
-### 3.5.2 Equipe de Engenharia de Produto de *Software*
+| Perfil | -- |  
+|:-:|:-|  
+| Representantes | Desenvolvedores contratados. |  
+| Descrição | Desenvolvimento e manutenção do software. |  
+| Tipo | Profissionais de Tecnologia da Informação. |  
+| Responsabilidades | Criar, testar e manter o sistema de gerenciamento da frota. |  
+| Critérios de Sucesso | Implementação de um sistema funcional e de fácil utilização. |  
+| Envolvimento | Alto. |  
+| Problemas/Comentários | Garantir a integração do sistema com outros processos da empresa. |  
 
-|Perfil|--|
-|:-:|:-|
-|Representantes|Bruna Pinos de Oliveira, Guilherme Augusto Nunes Silva, Guilherme Guimarães Lacerda, Ícaro Pereira de Oliveira, Letícia de Souza Santos.|
-|Descrição|Gerenciamento do Projeto.|
-|Tipo|Estudantes da Universidade de Brasília, da disciplina de Engenharia de Produto de *Software*.|
-|Responsabilidades|Monitorar, motivar, orientar e preparar a equipe de desenvolvimento. Definir prazos para as atividades propostas.|
-|Critérios de Sucesso|Manter os prazos estabelecidos sem atraso, e gerenciar a qualidade do *software* em desenvolvimento, finalizando o projeto no tempo estipulado.|
-|Envolvimento|Alto.|
-|Problemas/Comentários|Organizar prazos e metas de acordo com o tempo disponível.|
+### 3.5.2 Equipe de Gestão de Frota  
 
-### 3.5.3 Orientador
+| Perfil | -- |  
+|:-:|:-|  
+| Representantes | Gestores da empresa responsáveis pela frota. |  
+| Descrição | Administração dos veículos e motoristas. |  
+| Tipo | Profissionais responsáveis pela logística e operação da frota. |  
+| Responsabilidades | Monitorar o desempenho da frota, definir escalas de trabalho e supervisionar a manutenção dos veículos. |  
+| Critérios de Sucesso | Garantir a eficiência operacional da frota e a segurança dos motoristas. |  
+| Envolvimento | Alto. |  
+| Problemas/Comentários | Gerenciar as viagens e períodos de descanso de maneira eficiente. |  
 
-|Perfil|--|
-|:-:|:-|
-|Representantes|Professora Carla Silva Rocha Aguiar|
-|Descrição|Professora na Universidade de Brasília, no campus Faculdade Gama (FGA - UnB), atual professora das disciplinas Métodos de Desenvolvimento de *Software* e Engenharia de Produto de *Software*.|
-|Tipo|Orientadora e avaliadora que dará suporte a respeito do desenvolvimento do <i>Chatbot</i> Lino.|
-|Responsabilidades|Avaliar a equipe de desenvolvimento e gestão e orientá-los em eventuais dúvidas.|
-|Critérios de Sucesso|Observar o sucesso da equipe de desenvolvimento.|
-|Envolvimento|Médio.|
-|Problemas/Comentários|--|
+### 3.5.3 Motoristas  
 
-## 3.6 Perfis dos Usuários
+| Perfil | -- |  
+|:-:|:-|  
+| Representantes | Funcionários responsáveis pelo transporte de cargas. |  
+| Descrição | Profissionais que operam os veículos da frota. |  
+| Tipo | Motoristas da empresa que precisam acompanhar seus horários e viagens. |  
+| Responsabilidades | Consultar horários de trabalho, visualizar períodos de descanso e reportar informações sobre os veículos. |  
+| Critérios de Sucesso | Facilidade de uso do sistema para visualizar informações relevantes. |  
+| Envolvimento | Alto. |  
+| Problemas/Comentários | Necessidade de um sistema intuitivo e acessível para os motoristas. |  
 
-### 3.6.1 Alunos
+## 3.6 Principais Necessidades dos Usuários ou dos Envolvidos  
 
-|Perfil|--|
-|:-:|:-|
-|Representantes|Alunos da Universidade de Brasilia, no campus Faculdade do Gama (FGA - UnB).|
-|Descrição|Alunos que tenham dúvidas acerca da faculdade.|
-|Tipo|Estudantes da FGA que tenham dúvidas e necessitem de notificações sobre o calendário do semestre.|
-|Responsabilidades|Interagir com o Lino por meio do <i>Telegram</i> ou <i>Facebook Messenger</i>, retirar dúvidas, receber notificações e alertas da comunidade acadêmica.|
-|Critérios de Sucesso|Realizar interações flúidas com o Lino.|
-|Envolvimento|Alto.|
-|Problemas/Comentários|Não possuir cadastro no <i>Telegram</i>.|
-
-## 3.7 Principais Necessidades dos Usuários ou dos Envolvidos
-
-|Necessidade|Prioridade|Preocupação|Solução Proposta|Solução Atual|
-|:---|:---|:---|:---|:---|
-|Retirar dúvidas frequentes de alunos da FGA - UnB.|Alta.|Falta de interação com o Lino.|Um <i>ChatBot</i> de <i>Telegram</i> e <i>Facebook Messenger</i> que consiga auxiliar os universitários respondendo suas dúvidas e necessidades.|Perguntar diretamente na secretaria da faculdade.|
-|Receber notificações sobre o calendário de atividades da Faculdade.|Alta.|Notificações ignoradas.|Mensagens enviadas pelo Lino, avisando de eventos e datas importantes durante o semestre.|Pesquisas e avisos em grupos de Facebook e sites da comunidade.|
+| Necessidade | Prioridade | Preocupação | Solução Proposta | Solução Atual |  
+|:---|:---|:---|:---|:---|  
+| Consultar horários de trabalho e períodos de descanso. | Alta. | Falta de organização e transparência. | Um sistema que exibe os horários e dias de descanso com base nas viagens realizadas. | Consulta manual com gestores. |  
+| Acompanhar informações dos veículos da frota. | Alta. | Dificuldade no monitoramento do status dos veículos. | Um banco de dados acessível contendo informações sobre manutenção e documentação. | Anotações manuais ou comunicação verbal. |  
+| Gerenciar chamados de manutenção. | Alta. | Falhas na comunicação sobre problemas mecânicos. | Um sistema que permite abertura e acompanhamento de chamados. | Registro informal e comunicação por telefone. |  
+| Monitorar viagens realizadas. | Alta. | Falta de histórico organizado para análise e otimização. | Um painel que exibe o histórico de viagens e relatórios operacionais. | Registros em planilhas ou papel. |  
 
 # 4.Descrição da Solução
 
 ## 4.1 Perpectiva do Produto
 
-<p align="justify"> &emsp;&emsp;O <i>ChatBot</i> Lino tem como objetivo automatizar operações de secretariado, permitindo a redistribuição de informações universitárias como datas e prazos de incrição. Ainda disso, é capaz de ensinar o usuário um caminho pra facilitar uma emissão de documentos universitários, avisar periodicamente eventos, alertas da comunidade acadêmica e informar o cardápio de refeições do RU.</p>
+<p align="justify"> &emsp;&emsp;O sistema tem como objetivo auxiliar a gestão operacional de uma empresa de veículos pesados, proporcionando maior controle sobre horários e férias dos funcionários com base nas viagens realizadas. Além disso, permite a consulta e gerenciamento de informações dos veículos, chamados de manutenção e históricos operacionais. A plataforma também otimiza a comunicação entre os funcionários e a administração, fornecendo relatórios e notificações automatizadas para facilitar a tomada de decisões.</p>
 
-## 4.2 Resumo dos recursos
+## **4.2 Resumo dos Recursos**  
 
-| Benefício para o Cliente | Recursos de suporte |
-|:---:|:---:|
-|Fornece avisos sobre datas de eventos e prazos de inscrição|O <i>ChatBot</i> Lino utiliza informações públicas da universidade para gerar os avisos para o usuário, ainda estes combinando de acordo com o assunto que o usuário deseja receber.|
-|Capacidade de interação entre usuário e o Lino|A partir de um fluxo de diálogo, Lino é capaz de sguir uma conversa não linear e interagir de forma descontraída e informativa.|
-|Facilidade em emissão de documentos universitários|O Lino, quando questionado sobre documentos, prontamente demonstra de forma prática como emitir e obter os documentos a partir das plataformas online da universidade.|
-|Facilidade em adquirir o cardápio do RU|O Lino torna mais acessível aos universitários dados relacionados às refeições do Restaurante Universitário.|
+| Benefício para o Cliente | Recursos de Suporte |  
+|:---:|:---:|  
+|Organização e transparência nos horários e períodos de descanso dos funcionários|O sistema permite que os funcionários consultem sua escala de trabalho e férias calculadas automaticamente com base nas viagens realizadas.|  
+|Facilidade no acompanhamento da frota de veículos|A plataforma fornece um banco de dados com informações detalhadas sobre cada veículo, incluindo quilometragem, status de manutenção e vencimento de documentos.|  
+|Gestão eficiente da manutenção|Os usuários podem registrar chamados de manutenção, acompanhar status dos reparos e visualizar um histórico detalhado de manutenções realizadas.|  
+|Monitoramento das viagens realizadas|O sistema mantém um registro atualizado das viagens, permitindo análises de produtividade e otimização de rotas.|  
+|Painel de controle para melhor tomada de decisões|A interface inclui dashboards e relatórios gerenciais com dados estratégicos sobre a frota e desempenho operacional.|
 
-# 5. Recursos do Produto
+# 5. Recursos do Produto  
 
-O <i>ChatBot</i> Lino é capaz de:
+O sistema é capaz de:  
 
-* Realizar avisos prévios de eventos;
-* Realizar avisos prévios de prazos de inscrição;
-* Realizar avisos de alertar da comunidade acadêmica;
-* Realizar um fluxo de conversa com o usuário;
-* Realizar tutoriais para emissão de documentos universitários;
-* Disponibilizar dados das refeições do RU;
-* Resposder dúvidas comuns entre os universitários;
+* Gerenciar horários e períodos de descanso dos funcionários;  
+* Calcular automaticamente as férias com base nas viagens realizadas;  
+* Disponibilizar informações detalhadas sobre os veículos da frota;  
+* Registrar e acompanhar chamados de manutenção;  
+* Manter um histórico atualizado de viagens realizadas;  
+* Gerar relatórios e dashboards para apoio à gestão;  
+* Alertar sobre vencimentos de documentos dos veículos e motoristas.  
 
-# 6. Requisitos Funcionais
+# 6. Requisitos Funcionais  
 
-| Funcionalidades | Prioridade |
-|:---:|:---:|
-|Notificar o usuário sobre o cardápio diário do RU|Alta|
-|Informar o usuário sobre o cardápio geral da semana|Alta|
-|Informar o usuário sobre o cardápio de uma refeição específica de um período|Alta|
-|Gerenciar as notificações escolhidas pelo usuário| Alta|
-|Receber mensagens dos servidores via gmail e enviar à comunidade acadêmica| Alta|
-|Enviar o caléndário de matricúlas da Universidade|Alta|
+| Funcionalidades | Prioridade |  
+|:---:|:---:|  
+|Permitir a visualização da escala de trabalho e férias|Alta|  
+|Exibir informações detalhadas dos veículos, incluindo status e quilometragem|Alta|  
+|Registrar e gerenciar chamados de manutenção|Alta|  
+|Monitorar e armazenar histórico de viagens|Alta|  
+|Gerar relatórios gerenciais sobre a frota e desempenho operacional|Alta|  
+|Notificar sobre vencimentos de documentos e manutenções preventivas|Alta|  
 
-# 7. Restrições
+# 7. Restrições  
 
-*	Uso da <i>Internet</i>;
-* Uso do <i>Telegram</i>;
-* Uso do <i>Facebook Messenger</i>;
-* Projeto deve ser finalizado até 29/11/2018;
-* Conhecimento básico da Português;
-* Conhecimento básico de Inglês;
+* Requer conexão com a **Internet**;  
+* Uso restrito a funcionários autorizados da empresa;  
+* Compatibilidade com navegadores modernos e dispositivos móveis;  
+* O projeto deve ser finalizado até a data estipulada pela empresa;  
+* Interface intuitiva para usuários com conhecimento básico de tecnologia.  
 
-# 8. Intervalos de qualidade
+# 8. Intervalos de Qualidade  
 
-## 8.1 Requisitos de Implementação
+## 8.1 Requisitos de Implementação  
 
-<p align="justify"> &emsp;&emsp;Para maior eficiência, o Lino será desenvolvido para ser utilizado em conjunto das plataformas <i>Facebook Messenger</i> e <i>Telegram</i>, dois programas largamente utilizados pela comunidade para a comunicação, onde a implementação de funcionalidades se mostra viável.</p>
+<p align="justify"> &emsp;&emsp;Para maior eficiência, o sistema será desenvolvido para ser acessado via navegador web e dispositivos móveis, garantindo que os funcionários possam visualizar horários, informações de veículos e chamados de manutenção de maneira prática e acessível.</p>  
 
-## 8.2 Requisitos de Sistema
+## 8.2 Requisitos de Sistema  
 
-<p align="justify"> &emsp;&emsp;Esta aplicação deverá ser acessada através de dispositivos que possuem as aplicações <i>Facebook Messenger</i> ou <i>Telegram</i> em que o sistema operacional é variável de acordo com o dispositivo de utilização, podendo ser: <i>Android</i>, <i>iOS</i>, <i>Windows</i>, <i>Linux</i>, <i>ChromeOS</i>...</p>
+<p align="justify"> &emsp;&emsp;Esta aplicação deverá ser acessada através de dispositivos com conexão à internet, sendo compatível com sistemas operacionais variados, como <i>Windows</i>, <i>Linux</i>, <i>MacOS</i>, <i>Android</i> e <i>iOS</i>. O sistema será otimizado para funcionar em navegadores modernos.</p>  
 
-## 8.3 Requisitos de Design
+## 8.3 Requisitos de Design  
 
-<p align="justify"> &emsp;&emsp;A composição deste <i>software</i> será feita de maneira a tornar sua utilização autoexplicativa e fácil, para acesso em tempo real, ou seja, atendendo todas as especificações de boas práticas referentes à experiência de usuário.</p>
+<p align="justify"> &emsp;&emsp;A interface do <i>software</i> será projetada para ser intuitiva e de fácil utilização, permitindo que os usuários acessem rapidamente as informações desejadas. A experiência do usuário será priorizada, garantindo um design responsivo e acessível para diferentes tipos de dispositivos.</p>  
